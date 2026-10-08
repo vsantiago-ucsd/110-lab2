@@ -1,6 +1,6 @@
 const desserts: string[] = [
   "Tiramisu",
-  "Chocolate Cake",
+  "Cheesecake",
   "Mochi",
   "Brownies",
   "Ice Cream"
@@ -11,5 +11,3 @@ export function printDesserts(): void {
     console.log(dessert);
   });
 }
-
-printDesserts();
