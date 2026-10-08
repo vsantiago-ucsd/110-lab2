@@ -1,3 +1,5 @@
+import { animation } from "./animation";
+
 const desserts: string[] = [
   "Tiramisu",
   "Cheesecake",
@@ -7,6 +9,8 @@ const desserts: string[] = [
 ];
 
 export function printDesserts(): void {
+  animation("Desserts");
+
   desserts.forEach((dessert) => {
     console.log(dessert);
   });
