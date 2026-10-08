@@ -1,7 +1,7 @@
 import { animation } from "./animation";
 
 // A list of snack names
-export const snacks: string[] = ["Chips", "Pretzels", "Popcorn", "Trail Mix", "Granola Bar", "Popcorn", "Chocolate", "jelly beans"];
+export const snacks: string[] = ["chips", "Pretzels", "Popcorn", "Trail Mix", "Granola Bar", "Popcorn", "Chocolate", "jelly beans"];
 
 // Exported function to print each snack
 export function printSnacks(items: string[]): void {
