@@ -3,7 +3,8 @@ import { animation } from "./animation";
 // A list of snack names
 export const snacks: string[] = [
   "chips",
-  "cookies"
+  "cookies",
+  "granola"
 ];
 
 // Exported function to print each snack
