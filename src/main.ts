@@ -5,3 +5,5 @@ function main(): void {
   printSnacks(snacks);
   printDesserts();
 }
+
+main();
